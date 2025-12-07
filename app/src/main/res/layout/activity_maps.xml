@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maps">
+    <TextView
+        android:id="@+id/layarblkng"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"/>
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="427dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="304dp"
+        tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/uploadfoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="240dp"
+        android:text="@string/uploadfoto"
+        android:textColor="#FFFFFF"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"
+        android:textSize="14sp"
+        android:layout_marginStart="40dp" />
+    <ImageView
+        android:id="@+id/imagePreview"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="240dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="250dp"
+        android:backgroundTint="#FF0000"
+        android:background="#EEE" />
+
+    <AutoCompleteTextView
+        android:id="@+id/titikkordinat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="177dp"
+        android:hint="@string/titik"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+    <Spinner
+        android:id="@+id/pilih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="121dp"
+        android:hint="@string/titik"
+        android:padding="15dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/catatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="65dp"
+        android:hint="@string/Catatan"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+
+    <Button
+        android:id="@+id/btn_confirm_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lokasi1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

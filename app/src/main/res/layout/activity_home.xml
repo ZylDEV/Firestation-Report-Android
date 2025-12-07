@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D9D9"
+    tools:context=".home">
+
+    <TextView
+        android:id="@+id/ataslayar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/app_name2"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginStart="110dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/logo3"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <ImageView
+        android:id="@+id/penjelasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ataslayar"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/haha" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/penjelasan"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp" />
+
+    <TextView
+        android:id="@+id/bawahlayar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FFF"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/btnutama"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/home_app_logo_24dp_000000_fill0_wght400_grad0_opsz24"
+        android:layout_marginStart="60dp"
+        app:backgroundTint="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnmomen"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/newspaper_24dp_000000_fill0_wght400_grad0_opsz24"
+        app:backgroundTint="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnmenu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:backgroundTint="#000000"
+        android:background="@drawable/account_circle_24dp_000000_fill0_wght400_grad0_opsz24"
+        android:layout_marginEnd="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btntambahlokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lokasi1"
+        android:layout_marginStart="27dp"
+        app:backgroundTint="#FF0000"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/map" />
+    <Button
+        android:id="@+id/btnhapuslokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lokasi2"
+        android:layout_marginStart="240dp"
+        app:backgroundTint="#9180FC"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/map" />
+
+    <ScrollView
+        android:layout_width="364dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btntambahlokasi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp">
+
+        <TextView
+            android:id="@+id/riwayat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="italic"
+            android:background="#FFFFFF"
+            android:textColor="#000000" />
+    </ScrollView>
+
+</RelativeLayout>

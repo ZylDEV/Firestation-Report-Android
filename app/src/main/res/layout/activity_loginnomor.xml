@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D9D9"
+    tools:context=".loginnomor">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text="@string/EmailPasword"
+        android:textSize="20sp"
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/etEmail"
+        android:layout_below="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:hint="@string/Email"
+        android:padding="15dp"/>
+
+    <EditText
+        android:id="@+id/etPasword"
+        android:layout_below="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:hint="@string/Password"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:width="180dp"
+        android:backgroundTint="#FF0000"
+        android:text="@string/Daftar"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+</RelativeLayout>

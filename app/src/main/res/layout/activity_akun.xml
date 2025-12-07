@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D9D9"
+    tools:context=".home">
+
+
+    <TextView
+        android:id="@+id/ataslayar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:layout_alignParentTop="true" />
+
+
+    <TextView
+        android:id="@+id/kata1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textColor="#000000"
+        android:text="@string/app_name2"
+        android:textSize="25sp"
+        android:layout_marginStart="110dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/logo3"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <ImageView
+        android:id="@+id/profill"
+        android:layout_width="143dp"
+        android:layout_height="116dp"
+        android:layout_below="@+id/ataslayar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/profilll" />
+
+    <TextView
+        android:id="@+id/informasidata"
+        android:layout_width="390dp"
+        android:layout_height="175dp"
+        android:layout_below="@id/ataslayar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="#FFFFFF"
+        android:background="@drawable/layarprofil" />
+
+    <TextView
+        android:id="@+id/biodata"
+        android:layout_width="46dp"
+        android:layout_height="21dp"
+        android:layout_below="@id/ataslayar"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/biodata"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="42dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/biodata"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/nama__" />
+
+
+    <EditText
+        android:id="@+id/namaterisi"
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/biodata"
+        android:textSize="16sp"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="42dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/id_akun__"
+        android:layout_below="@id/nama"/>
+
+    <EditText
+        android:id="@+id/idterisi"
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/namaterisi"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="14sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/telepon"
+        android:layout_width="42dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/telepon__"
+        android:layout_below="@id/id"/>
+
+    <EditText
+        android:id="@+id/teleponterisi"
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/idterisi"
+        android:textSize="16sp"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/informasiakun"
+        android:layout_width="390dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/informasidata"
+        android:backgroundTint="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/layarprofil" />
+
+    <TextView
+        android:id="@+id/akun1"
+        android:layout_width="46dp"
+        android:layout_height="21dp"
+        android:layout_below="@id/informasidata"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/akun1" />
+
+    <EditText
+        android:id="@+id/emailterisi"
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/akun1"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/kelolaakun"
+        android:layout_width="390dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/informasiakun"
+        android:backgroundTint="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/layarprofil" />
+
+    <TextView
+        android:id="@+id/kelola"
+        android:layout_width="55dp"
+        android:layout_height="21dp"
+        android:layout_below="@id/informasiakun"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/kelola_akun" />
+
+    <TextView
+        android:id="@+id/emailterisi"
+        android:layout_width="42dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/email_"
+        android:layout_below="@id/akun1"/>
+
+    <TextView
+        android:id="@+id/bawahlayar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FFFFFF"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/btnutama"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/home_app_logo_24dp_000000_fill0_wght400_grad0_opsz24"
+        app:backgroundTint="#000000"
+        android:layout_marginStart="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnmomen"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/newspaper_24dp_000000_fill0_wght400_grad0_opsz24"
+        app:backgroundTint="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnmenu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/account_circle_24dp_000000_fill0_wght400_grad0_opsz24"
+        android:layout_marginEnd="60dp"
+        app:backgroundTint="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnsimpan"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#9180FC"
+        android:layout_below="@+id/kelola"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Simpan" />
+
+    <Button
+        android:id="@+id/btnkeluar"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/btnsimpan"
+        app:backgroundTint="#9180FC"
+        android:layout_centerHorizontal="true"
+        android:text="@string/logout" />
+
+    <Button
+        android:id="@+id/btnhapus"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnkeluar"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#FF0000"
+        android:text="@string/hapus" />
+
+
+</RelativeLayout>

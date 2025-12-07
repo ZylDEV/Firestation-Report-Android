@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">HALO MERAH</string>
+    <string name="app_name2">Penyelamat Kita Semua</string>
+    <string name="admin1">Hubungi Admin 1</string>
+    <string name="komik">Paduan Keselamatan</string>
+    <string name="userdata">https://halo-merah-default-rtdb.asia-southeast1.firebasedatabase.app/</string>
+    <string name="lokasi1">Lapor lokasi</string>
+    <string name="lokasi2">Hapus lokasi</string>
+    <string name="viewmaps">View Map</string>
+
+    <string name="Register">Registrasi</string>
+    <string name="login_with_google">Masuk Dengan Google</string>
+    <string name="EmailPasword">Silahkan Mengisi Email Dan Pasword</string>
+    <string name="login">Login</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Daftar">Daftar Sekarang</string>
+    <string name="Lanjutkan">Lanjutkan</string>
+    <string name="logout">Keluar Akun</string>
+    <string name="hapus">Hapus Akun</string>
+    <dimen name="text_size_large">10sp</dimen>
+    <string name="webclientid">228951531440-5l1id0tjo9a4i9p97356hr15vojn3ml8.apps.googleusercontent.com</string>
+    <string name="webclientid2">AIzaSyDBmB3ffMDy0uRCSMLL0cCIrjqRWdWOMF4</string>
+    <string name="titik">Titik Koordinat</string>
+    <string name="Catatan">Catatan</string>
+    <string name="uploadfoto">Klik untuk upload foto</string>
+
+    <string-array name="pilihan_array">
+        <item>Darurat Bencana Alam</item>
+        <item>Darurat Kebakaran</item>
+        <item>Darurat Keselamatan</item>
+        <item>Pertolongan Lainnya</item>
+    </string-array>
+
+    <string name="nama">Nama</string>
+    <string name="Simpan">Simpan Data</string>
+
+    <string name="info1">Kesiapsiagaan Segala Keadaan Darurat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,34 @@
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local config (WAJIB DIABAIKAN)
+local.properties
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+.kotlin/
+
+# Android output
+captures/
+*.apk
+*.aab
+
+# Keystore (PENTING)
+*.jks
+*.keystore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

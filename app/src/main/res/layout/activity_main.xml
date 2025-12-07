@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D9D9"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:src="@drawable/logo3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:id="@+id/logo"
+        />
+
+    <TextView
+        android:id="@+id/judul1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/halo_merah"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="238dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/judul1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/penyelamat_kita_semua" />
+
+    <Button
+        android:id="@+id/btngoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:width="210dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/login_with_google"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btngoogle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:width="210dp"
+        android:backgroundTint="#FF0000"
+        android:text="@string/login"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btndaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9180FC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:width="210dp"
+        android:layout_below="@+id/btnLogin"
+        android:textSize="15sp"
+        android:text="@string/Register"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
