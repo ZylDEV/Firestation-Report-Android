@@ -3,7 +3,7 @@
     <string name="app_name2">Penyelamat Kita Semua</string>
     <string name="admin1">Hubungi Admin 1</string>
     <string name="komik">Paduan Keselamatan</string>
-    <string name="userdata">https://halo-merah-default-rtdb.asia-southeast1.firebasedatabase.app/</string>
+    <string name="userdata">YOUR_FIREBASE_DATABASE_URL</string>
     <string name="lokasi1">Lapor lokasi</string>
     <string name="lokasi2">Hapus lokasi</string>
     <string name="viewmaps">View Map</string>
@@ -19,8 +19,8 @@
     <string name="logout">Keluar Akun</string>
     <string name="hapus">Hapus Akun</string>
     <dimen name="text_size_large">10sp</dimen>
-    <string name="webclientid">228951531440-5l1id0tjo9a4i9p97356hr15vojn3ml8.apps.googleusercontent.com</string>
-    <string name="webclientid2">AIzaSyDBmB3ffMDy0uRCSMLL0cCIrjqRWdWOMF4</string>
+    <string name="webclientid">YOUR_WEB_CLIENT_ID</string>
+    <string name="webclientid2">YOUR_GOOGLE_MAPS_API_KEY</string>
     <string name="titik">Titik Koordinat</string>
     <string name="Catatan">Catatan</string>
     <string name="uploadfoto">Klik untuk upload foto</string>
