@@ -1,35 +1,61 @@
 # Firestation Report Android App
 
-An Android application for fire station personnel to report and manage fire incidents.
-Designed to simplify incident reporting and improve response documentation.
+Aplikasi Android untuk pelaporan dan penanganan insiden kebakaran. Dirancang untuk membantu petugas pemadam kebakaran dalam mendokumentasikan dan merespon laporan secara cepat dan efisien.
 
 ---
 
-## Features
-- User authentication (Login & Register)
-- Fire incident reporting
-- Incident data management
-- Report history
-- Simple and user-friendly interface
+## Fitur
+
+- Autentikasi pengguna (Login dan Registrasi)
+- Pelaporan insiden kebakaran
+- Manajemen data insiden
+- Riwayat laporan
+- Antarmuka yang sederhana dan mudah digunakan
 
 ---
 
 ## Tech Stack
-- Android (Java / Kotlin)
+
+- Android (Java)
 - Gradle
 - Firebase Authentication
 - Firebase Realtime Database
+- Google Maps API
+- Google Sign-In
 
 ---
 
-## Setup
+## Persyaratan
 
-### Requirements
 - Android Studio
-- Java or Kotlin
-- Internet connection (Firebase)
+- Java Development Kit (JDK)
+- Koneksi internet (Firebase)
 
-### Installation
-1. Clone the repository:
+---
+
+## Instalasi
+
+1. Clone repositori ini:
+
    ```bash
-   git clone https://github.com/USERNAME/Firestation-Report-Android.git
+   git clone https://github.com/ZylDEV/Firestation-Report-Android.git
+   ```
+
+2. Buka project di Android Studio.
+
+3. Siapkan file konfigurasi Firebase:
+   - Download file `google-services.json` dari Firebase Console
+   - Letakkan di folder `app/`
+
+4. Atur API Key di `strings.xml`:
+   - `YOUR_GOOGLE_MAPS_API_KEY` -> Ganti dengan Google Maps API Key-mu
+   - `YOUR_WEB_CLIENT_ID` -> Ganti dengan Web Client ID dari Google Cloud Console
+   - `YOUR_FIREBASE_DATABASE_URL` -> Ganti dengan URL Firebase Realtime Database-mu
+
+5. Jalankan aplikasi melalui Android Studio.
+
+---
+
+## Lisensi
+
+Distributed under the MIT License. Lihat file `LICENSE` untuk informasi lebih lanjut.
